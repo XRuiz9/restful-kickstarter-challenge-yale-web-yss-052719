@@ -1,0 +1,4 @@
+<h1><%= @project.title %></h1>
+<p><%= @project.desc %></p>
+
+<%= link_to "Delete", @project, method: :delete, data: { confirm: "Really?" } %>
